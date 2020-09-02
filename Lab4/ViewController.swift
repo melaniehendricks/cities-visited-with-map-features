@@ -108,10 +108,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
           // pass selected city to DetailViewController
           if(segue.identifier == "detailView"){
               if let viewController: DetailViewController = segue.destination as? DetailViewController{
-                  viewController.selectedCity = city.cityName
-                viewController.cityImageName = city.cityImageName
-                viewController.desc = city.cityDescription
-                
+                  viewController.selectedCity = city.cityName                
               }
           }
       }
