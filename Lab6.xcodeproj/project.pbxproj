@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		618F827A25006FA400B68A4B /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F827925006FA400B68A4B /* Places.swift */; };
 		61E6B9FF2408520C00DEE16D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6B9FE2408520C00DEE16D /* AppDelegate.swift */; };
 		61E6BA012408520C00DEE16D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6BA002408520C00DEE16D /* SceneDelegate.swift */; };
 		61E6BA032408520C00DEE16D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E6BA022408520C00DEE16D /* ViewController.swift */; };
@@ -19,7 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61E6B9FB2408520C00DEE16D /* Lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		618F827925006FA400B68A4B /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		61E6B9FB2408520C00DEE16D /* Lab6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E6B9FE2408520C00DEE16D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61E6BA002408520C00DEE16D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61E6BA022408520C00DEE16D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		61E6B9F22408520C00DEE16D = {
 			isa = PBXGroup;
 			children = (
-				61E6B9FD2408520C00DEE16D /* Lab4 */,
+				61E6B9FD2408520C00DEE16D /* Lab6 */,
 				61E6B9FC2408520C00DEE16D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +56,12 @@
 		61E6B9FC2408520C00DEE16D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61E6B9FB2408520C00DEE16D /* Lab4.app */,
+				61E6B9FB2408520C00DEE16D /* Lab6.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		61E6B9FD2408520C00DEE16D /* Lab4 */ = {
+		61E6B9FD2408520C00DEE16D /* Lab6 */ = {
 			isa = PBXGroup;
 			children = (
 				61E6B9FE2408520C00DEE16D /* AppDelegate.swift */,
@@ -69,19 +71,20 @@
 				61E6BA1824086CA800DEE16D /* CityTableViewCell.swift */,
 				61E6BA142408546800DEE16D /* cityModel.swift */,
 				61E6BA12240852DE00DEE16D /* DetailViewController.swift */,
+				618F827925006FA400B68A4B /* Places.swift */,
 				61E6BA072408520E00DEE16D /* Assets.xcassets */,
 				61E6BA092408520E00DEE16D /* LaunchScreen.storyboard */,
 				61E6BA0C2408520E00DEE16D /* Info.plist */,
 			);
-			path = Lab4;
+			path = Lab6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61E6B9FA2408520C00DEE16D /* Lab4 */ = {
+		61E6B9FA2408520C00DEE16D /* Lab6 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61E6BA0F2408520E00DEE16D /* Build configuration list for PBXNativeTarget "Lab4" */;
+			buildConfigurationList = 61E6BA0F2408520E00DEE16D /* Build configuration list for PBXNativeTarget "Lab6" */;
 			buildPhases = (
 				61E6B9F72408520C00DEE16D /* Sources */,
 				61E6B9F82408520C00DEE16D /* Frameworks */,
@@ -91,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Lab4;
+			name = Lab6;
 			productName = Lab4;
-			productReference = 61E6B9FB2408520C00DEE16D /* Lab4.app */;
+			productReference = 61E6B9FB2408520C00DEE16D /* Lab6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 61E6B9F62408520C00DEE16D /* Build configuration list for PBXProject "Lab4" */;
+			buildConfigurationList = 61E6B9F62408520C00DEE16D /* Build configuration list for PBXProject "Lab6" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61E6B9FA2408520C00DEE16D /* Lab4 */,
+				61E6B9FA2408520C00DEE16D /* Lab6 */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +153,7 @@
 				61E6BA1924086CA800DEE16D /* CityTableViewCell.swift in Sources */,
 				61E6BA032408520C00DEE16D /* ViewController.swift in Sources */,
 				61E6B9FF2408520C00DEE16D /* AppDelegate.swift in Sources */,
+				618F827A25006FA400B68A4B /* Places.swift in Sources */,
 				61E6BA012408520C00DEE16D /* SceneDelegate.swift in Sources */,
 				61E6BA152408546800DEE16D /* cityModel.swift in Sources */,
 				61E6BA13240852DE00DEE16D /* DetailViewController.swift in Sources */,
@@ -297,13 +301,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lab4/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Lab6/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ASU.Lab4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lab6;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,13 +318,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Lab4/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Lab6/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ASU.Lab4;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lab6;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61E6B9F62408520C00DEE16D /* Build configuration list for PBXProject "Lab4" */ = {
+		61E6B9F62408520C00DEE16D /* Build configuration list for PBXProject "Lab6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61E6BA0D2408520E00DEE16D /* Debug */,
@@ -338,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61E6BA0F2408520E00DEE16D /* Build configuration list for PBXNativeTarget "Lab4" */ = {
+		61E6BA0F2408520E00DEE16D /* Build configuration list for PBXNativeTarget "Lab6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61E6BA102408520E00DEE16D /* Debug */,
